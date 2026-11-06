@@ -19,7 +19,7 @@ const portraitCrops={
  'photo-6.jpg':[8,195,483,510],
  'photo-8.jpg':[8,205,483,460],
  'photo-9.jpg':[175,264,215,320],
- 'photo-10.jpg':[8,225,483,470]
+ 'photo-10.jpg':[8,185,483,520]
 };
 document.querySelectorAll('.extras img').forEach(img=>{
  if(img.getAttribute('src').endsWith('photo-7.jpg')){img.remove();return;}
